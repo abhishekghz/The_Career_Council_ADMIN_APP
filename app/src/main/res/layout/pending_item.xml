@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="2dp"
+    android:padding="10dp"
+    android:background="#E1FFFC"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C9E1CA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/by2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="STATUS: PENDING"
+            android:textAlignment="center"
+            android:textColor="#000523"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/docid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="Status: PENDING"
+            android:textAlignment="center"
+            android:textColor="#000523"
+            android:textSize="7sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#030932"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/By"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/alice"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text="Submitted By:"
+                android:textAlignment="center"
+                android:textColor="#020000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@font/alice"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textAlignment="viewStart"
+                android:textColor="#020000"
+                android:textSize="16sp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/uemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@font/alice"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textAlignment="viewStart"
+                android:textColor="#020000"
+                android:textSize="16sp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/uphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/alice"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textAlignment="viewStart"
+                android:textColor="#020000"
+                android:textSize="16sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@font/alice"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text="Timestamp:"
+                android:textAlignment="center"
+                android:textColor="#020000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/created"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/alice"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textAlignment="viewStart"
+                android:textColor="#020000"
+                android:textSize="16sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@font/alice"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text="Message:"
+                android:textAlignment="center"
+                android:textColor="#020000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/mssg"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/alice"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text="Message:"
+                android:textAlignment="viewStart"
+                android:textColor="#020000"
+                android:textSize="16sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/compbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_look"
+            android:backgroundTint="@null"
+            android:padding="15dp"
+            android:text="MARK AS COMPLETED"
+            android:textColor="#FFFEFE" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

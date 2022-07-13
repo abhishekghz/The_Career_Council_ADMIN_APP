@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thecareercouncil_adminapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheCareerCouncil_ADMINAPP" >
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Formdetails"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".uploadcards"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+             />
+        <activity
+            android:name=".chatting"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+             />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+             />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_ccc_req"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".upload_news"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+             />
+        <activity
+            android:name=".quiz_req"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".careergui_req"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_workshop"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".upload_workshop"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+             />
+        <activity
+            android:name=".opb_req"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".opb_que"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_jobappli_form"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_jobappli_que"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_res_req_form"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_res_req_doc"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_res_query"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_completed"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".view_pending"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".chat"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".chat_req"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+             />
+        <activity
+            android:name=".userdetails"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize|adjustPan"
+             />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

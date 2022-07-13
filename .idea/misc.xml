@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/drawable/button_look.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/drawable/newtextlook.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/drawable/received_look.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/drawable/sent_look.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/drawable/text_look.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_careergui_req.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_chat.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_chat_req.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_chatting.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_details.xml" value="0.25" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_forgot_password.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_formdetails.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_newsfeed.xml" value="0.25" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_opb_que.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_opb_req.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_quiz_req.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_signup.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_splashscreen.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_upload_news.xml" value="0.152" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_upload_workshop.xml" value="0.264" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_uploadcards.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_userdetails.xml" value="0.2" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_users.xml" value="0.25" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_ccc_req.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_completed.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_jobappli_form.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_jobappli_que.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_pending.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_res_query.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_res_req_doc.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_res_req_form.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/activity_view_workshop.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/card_cell.xml" value="0.25" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/chat_item.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/completed_item.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/dashcardpage.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/itemone.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/itemtwo.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/nav_header.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/pending_item.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/query_item.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/received_message.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/layout/sent_message.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/Rithika/AndroidStudioProjects/TheCareerCouncil_ADMINAPP/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

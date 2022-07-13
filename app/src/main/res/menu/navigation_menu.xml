@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Chat">
+
+        <menu>
+
+            <item
+                android:id="@+id/chatnav"
+                android:title="Chat"
+
+                />
+
+
+        </menu>
+
+    </item>
+    <item android:title="Contact">
+        <menu>
+    <item
+        android:id="@+id/contactnav"
+        android:title="Contact Users"
+        />
+        </menu>
+    </item>
+
+
+    <item android:title="View Requests">
+
+        <menu>
+            <item
+                android:id="@+id/pendingnav"
+                android:title="Pending Requests"
+
+                />
+            <item
+                android:id="@+id/completednav"
+                android:title="Completed Requests"
+
+                />
+
+
+        </menu>
+
+    </item>
+
+    <item android:title="View Free Enquiries">
+
+        <menu>
+            <item
+                android:id="@+id/resquenav"
+                android:title="Resume Queries"
+
+                />
+
+            <item
+                android:id="@+id/jobappliqnav"
+                android:title="Job Application Queries"
+
+                />
+
+            <item
+                android:id="@+id/opbquerynav"
+                android:title="Upgradation Queries"
+
+                />
+
+
+
+
+        </menu>
+
+    </item>
+
+    <item android:title="View Paid Enrollments">
+
+        <menu>
+            <item
+                android:id="@+id/chatreqnav"
+                android:title="Online Counselling"
+
+                />
+
+            <item
+                android:id="@+id/resfornav"
+                android:title="Resume-  Form"
+
+                />
+            <item
+                android:id="@+id/resdocnav"
+                android:title="Resume- File"
+
+                />
+
+            <item
+                android:id="@+id/jobapplirnav"
+                android:title="Job Application Request"
+
+                />
+
+            <item
+                android:id="@+id/opbreqnav"
+                android:title="LinkedIn Upgradation"
+
+                />
+
+            <item
+                android:id="@+id/cccreqnav"
+                android:title="Campus to Corporate Request"
+                />
+            <item
+                android:id="@+id/workshopreqnav"
+                android:title="Workshop Requests"
+                />
+
+
+
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="Upload">
+        <menu>
+            <item
+                android:id="@+id/introcards"
+                android:title="Upload Facility Introduction"
+                />
+            <item
+                android:id="@+id/wsuploadnav"
+                android:title="Upload Workshops"
+
+                />
+            <item
+                android:id="@+id/newsuploadnav"
+                android:title="Upload News"
+
+                />
+        </menu>
+    </item>
+
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logoutnav"
+                android:title="Logout"
+                />
+        </menu>
+    </item>
+
+</menu>

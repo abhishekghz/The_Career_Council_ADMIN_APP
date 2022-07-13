@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BEECF3F2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/By"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="Submitted By:"
+            android:textAlignment="center"
+            android:textColor="#020000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="#020000"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/uemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="#020000"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/uphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="#020000"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="Timestamp:"
+            android:textAlignment="center"
+            android:textColor="#020000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/created"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="#020000"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="Message:"
+            android:textAlignment="center"
+            android:textColor="#020000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/mssg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/alice"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:text="Message:"
+            android:textAlignment="viewStart"
+            android:textColor="#020000"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/eighteen"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
